@@ -1,0 +1,32 @@
+services:
+  # Entorno para Fundamentos
+  fundamentals:
+    build:
+      context: .
+      dockerfile: python_foundations.Dockerfile
+    container_name: py_fundamentals
+    ports:
+      - "8888:8888"
+    volumes:
+      - ../01-python-foundations:/app
+    networks:
+      - ai_net
+
+  # Entorno para AI con Flask
+  ai_web_lab:
+    build:
+      context: .
+      dockerfile: ai_rag.Dockerfile
+    container_name: ai_web
+    ports:
+      - "5000:5000"
+    volumes:
+      - ../03-ai-rag-agentic:/app
+    env_file:
+      - .env
+    networks:
+      - ai_net
+
+networks:
+  ai_net:
+    driver: bridge
