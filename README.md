@@ -14,7 +14,7 @@ Este s mi **Monorepo de Ingeniería** y base de conocimientos técnica para la i
 | Módulo | Contenido | Enfoque Técnico |
 | :--- | :--- | :--- |
 | **01-Python-Foundations** | Optimización de backend y lógica | Async, Pydantic, Type Hinting, Testing. |
-| **02-KMP-Android-Expert** | Arquitectura de Cuiido | Compose Multiplatform, MVI, Clean Arch. |
+| **02-KMP-Android-Expert** | Arquitectura de Clinical Intelligence | Compose Multiplatform, MVI, Clean Arch. |
 | **03-AI-RAG-Agentic** | Implementaciones IBM & MIT | Vector DBs, LangChain, Re-ranking, Memory. |
 
 ---
