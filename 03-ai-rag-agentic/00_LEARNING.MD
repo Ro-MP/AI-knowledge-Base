@@ -8,7 +8,7 @@
 * **Cost Implications:** By using shorter augmented prompts, RAG reduces response generation costs, especially for systems with extensive data sources.
 
 ## 2. Arquitectura Visual 
-![Diagrama de Flujo](./assets/images/RAG Process.png)
+![Diagrama de Flujo](./assets/images/RAG_Process.png)
 1. **Gather Sources:** Start with sources like office documents, company policies, or any other relevant information that may provide context for the user's future prompt.
 2. **Embed Sources:** Pass the gathered information through an embedding model. The embedding model converts each chunk of text into a vector representation, which is essentially a fixed-length column of numbers.
 3. **Store Vectors:** Store the embedded source vectors in a vector store — a specialized database optimized for storing and manipulating vector data.

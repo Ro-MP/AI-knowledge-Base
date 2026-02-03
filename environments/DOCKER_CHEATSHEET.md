@@ -8,6 +8,8 @@
 | **docker-compose start** | Reanuda los contenedores pausados. |
 | **docker-compose down** | Apaga y elimina contenedores y redes (limpieza total). |
 | **docker-compose restart** | Reinicia los servicios (útil si algo se queda trabado). |
+| **docker-compose build** | Reconstruye todo desde cero (hazlo si cambias el Dockerfile). |
+| **docker-compose up -d ai_web_lab** | Levanta solo el laboratorio de IA en segundo plano. |
 
 ## Inspección y diagnóstico
 | Comando | Acción |
@@ -20,6 +22,7 @@
 | **docker-compose top** | Muestra los procesos en ejecución en los contenedores. |
 | **docker-compose stats** | Muestra estadísticas de uso de recursos. |
 | **docker stats --no-stream** | Esto dirá cuánta memoria y CPU está consumiendo tu laboratorio en tiempo real |
+| **docker exec ai_web pip show langchain-chroma** | Esto dirá si langchain-chroma está instalado en el contenedor ai_web |
 
 ## Ejecución y Entorno
 | Comando | Acción |
