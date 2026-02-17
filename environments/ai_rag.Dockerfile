@@ -47,7 +47,10 @@ RUN pip install --no-cache-dir \
     pandas \
     jupyterlab \
     python-dotenv \
-    google-genai
+    google-genai \
+    gradio \
+    pydantic \
+    pypdf
 
 # Exponer puerto de Jupyter (o Flask después)
 EXPOSE 5000

@@ -30,6 +30,7 @@
 | **docker exec -it [nombre] bash** | Entra a la "máquina" para ejecutar comandos manuales. |
 | **docker-compose build --no-cache** | Reconstruye todo desde cero (hazlo si cambias el Dockerfile). |
 | **docker cp [archivo] [contenedor]:/ruta** | Mueve archivos de tu PC al contenedor (y viceversa). |
+| **docker-compose exec ai_web_lab python /app/03_Gradio.py** | Ejecuta el script en el contenedor ai_web_lab. |
 
 ## Limpieza
 | Comando | Acción |

@@ -19,7 +19,8 @@ services:
       dockerfile: ai_rag.Dockerfile
     container_name: ai_web
     ports:
-      - "5050:5000"
+      - "5050:5000" # Jupyter
+      - "7860:7860" # Gradio
     volumes:
       - ../03-ai-rag-agentic:/app
     env_file:
